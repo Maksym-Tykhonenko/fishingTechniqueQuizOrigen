@@ -31,7 +31,7 @@ const App = () => {
   useEffect(() => {
     Animated.timing(appearingAnim, {
       toValue: 1,
-      duration: 1200,
+      duration: 3500,
       useNativeDriver: true,
     }).start();
   }, []);
@@ -40,17 +40,17 @@ const App = () => {
     setTimeout(() => {
       Animated.timing(appearingSecondAnim, {
         toValue: 1,
-        duration: 2500,
+        duration: 3500,
         useNativeDriver: true,
       }).start();
       //setLouderIsEnded(true);
-    }, 1500);
+    }, 3500);
   }, []);
 
   useEffect(() => {
     setTimeout(() => {
       setLouderIsEnded(true);
-    }, 3500);
+    }, 8000);
   }, []);
   return (
     <NavigationContainer>
