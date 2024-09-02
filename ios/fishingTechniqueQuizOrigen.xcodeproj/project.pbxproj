@@ -12,9 +12,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F3946091BCE4200963C57B7 /* InknutAntiqua-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DEAD0D6DF944B048071B2AF /* InknutAntiqua-Bold.ttf */; };
+		22FC9D01AE614B0EBCA461E5 /* InknutAntiqua-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B4CC05C51A4F4DAE7D879F /* InknutAntiqua-Light.ttf */; };
+		3B51A6038CBD47EC81BBBEC6 /* InknutAntiqua-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7C6B7156A6C4B79B317FFC0 /* InknutAntiqua-SemiBold.ttf */; };
+		510EC18B29464894908FE154 /* InknutAntiqua-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 237FA970141A438C93B0F0F1 /* InknutAntiqua-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.a */; };
+		7F35FD2C7DC04D1993714921 /* InknutAntiqua-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26464AC30D6446D6A9143DB6 /* InknutAntiqua-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AFA23313A4838CBA4DB08156 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1B1D3234C027A10B5ED2FE38 /* PrivacyInfo.xcprivacy */; };
+		B29B0C62C878433E88A6E6F4 /* InknutAntiqua-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CA42DE4DA2F483697BD1BB3 /* InknutAntiqua-Black.ttf */; };
+		EAE9AB20F2754E39AE975193 /* InknutAntiqua-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B304CAB63694DABBFF1199E /* InknutAntiqua-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +47,20 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = fishingTechniqueQuizOrigen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1D3234C027A10B5ED2FE38 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = fishingTechniqueQuizOrigen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		237FA970141A438C93B0F0F1 /* InknutAntiqua-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-Regular.ttf"; path = "../assets/fonts/InknutAntiqua-Regular.ttf"; sourceTree = "<group>"; };
+		26464AC30D6446D6A9143DB6 /* InknutAntiqua-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-Medium.ttf"; path = "../assets/fonts/InknutAntiqua-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-fishingTechniqueQuizOrigen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishingTechniqueQuizOrigen.debug.xcconfig"; path = "Target Support Files/Pods-fishingTechniqueQuizOrigen/Pods-fishingTechniqueQuizOrigen.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-fishingTechniqueQuizOrigen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishingTechniqueQuizOrigen.release.xcconfig"; path = "Target Support Files/Pods-fishingTechniqueQuizOrigen/Pods-fishingTechniqueQuizOrigen.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.debug.xcconfig"; path = "Target Support Files/Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests/Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-fishingTechniqueQuizOrigen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fishingTechniqueQuizOrigen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B4CC05C51A4F4DAE7D879F /* InknutAntiqua-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-Light.ttf"; path = "../assets/fonts/InknutAntiqua-Light.ttf"; sourceTree = "<group>"; };
+		7B304CAB63694DABBFF1199E /* InknutAntiqua-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-ExtraBold.ttf"; path = "../assets/fonts/InknutAntiqua-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = fishingTechniqueQuizOrigen/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.release.xcconfig"; path = "Target Support Files/Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests/Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DEAD0D6DF944B048071B2AF /* InknutAntiqua-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-Bold.ttf"; path = "../assets/fonts/InknutAntiqua-Bold.ttf"; sourceTree = "<group>"; };
+		9CA42DE4DA2F483697BD1BB3 /* InknutAntiqua-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-Black.ttf"; path = "../assets/fonts/InknutAntiqua-Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7C6B7156A6C4B79B317FFC0 /* InknutAntiqua-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-SemiBold.ttf"; path = "../assets/fonts/InknutAntiqua-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +125,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		65398CF317714EDE9CE157D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CA42DE4DA2F483697BD1BB3 /* InknutAntiqua-Black.ttf */,
+				8DEAD0D6DF944B048071B2AF /* InknutAntiqua-Bold.ttf */,
+				7B304CAB63694DABBFF1199E /* InknutAntiqua-ExtraBold.ttf */,
+				77B4CC05C51A4F4DAE7D879F /* InknutAntiqua-Light.ttf */,
+				26464AC30D6446D6A9143DB6 /* InknutAntiqua-Medium.ttf */,
+				237FA970141A438C93B0F0F1 /* InknutAntiqua-Regular.ttf */,
+				F7C6B7156A6C4B79B317FFC0 /* InknutAntiqua-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +156,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				65398CF317714EDE9CE157D4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +279,13 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				AFA23313A4838CBA4DB08156 /* PrivacyInfo.xcprivacy in Resources */,
+				B29B0C62C878433E88A6E6F4 /* InknutAntiqua-Black.ttf in Resources */,
+				1F3946091BCE4200963C57B7 /* InknutAntiqua-Bold.ttf in Resources */,
+				EAE9AB20F2754E39AE975193 /* InknutAntiqua-ExtraBold.ttf in Resources */,
+				22FC9D01AE614B0EBCA461E5 /* InknutAntiqua-Light.ttf in Resources */,
+				7F35FD2C7DC04D1993714921 /* InknutAntiqua-Medium.ttf in Resources */,
+				510EC18B29464894908FE154 /* InknutAntiqua-Regular.ttf in Resources */,
+				3B51A6038CBD47EC81BBBEC6 /* InknutAntiqua-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,3 @@
+const BtnBuy = ({}) => {
+  return <></>;
+};
