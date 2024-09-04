@@ -12,10 +12,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13FB30304378744FCD0EC0B4 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D8C52AB67A12FE6E2102F3 /* libPods-OneSignalNotificationServiceExtension.a */; };
 		1F3946091BCE4200963C57B7 /* InknutAntiqua-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DEAD0D6DF944B048071B2AF /* InknutAntiqua-Bold.ttf */; };
 		22FC9D01AE614B0EBCA461E5 /* InknutAntiqua-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77B4CC05C51A4F4DAE7D879F /* InknutAntiqua-Light.ttf */; };
 		3B51A6038CBD47EC81BBBEC6 /* InknutAntiqua-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7C6B7156A6C4B79B317FFC0 /* InknutAntiqua-SemiBold.ttf */; };
 		510EC18B29464894908FE154 /* InknutAntiqua-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 237FA970141A438C93B0F0F1 /* InknutAntiqua-Regular.ttf */; };
+		604D65852C88417F008AA954 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D65842C88417F008AA954 /* NotificationService.swift */; };
+		604D65892C88417F008AA954 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 604D65822C88417F008AA954 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7699B88040F8A987B510C191 /* libPods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.a */; };
 		7F35FD2C7DC04D1993714921 /* InknutAntiqua-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26464AC30D6446D6A9143DB6 /* InknutAntiqua-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -32,7 +35,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = fishingTechniqueQuizOrigen;
 		};
+		604D65872C88417F008AA954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604D65812C88417F008AA954;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		604D658D2C88417F008AA954 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				604D65892C88417F008AA954 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* fishingTechniqueQuizOrigenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishingTechniqueQuizOrigenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +75,16 @@
 		26464AC30D6446D6A9143DB6 /* InknutAntiqua-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-Medium.ttf"; path = "../assets/fonts/InknutAntiqua-Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-fishingTechniqueQuizOrigen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishingTechniqueQuizOrigen.debug.xcconfig"; path = "Target Support Files/Pods-fishingTechniqueQuizOrigen/Pods-fishingTechniqueQuizOrigen.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-fishingTechniqueQuizOrigen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishingTechniqueQuizOrigen.release.xcconfig"; path = "Target Support Files/Pods-fishingTechniqueQuizOrigen/Pods-fishingTechniqueQuizOrigen.release.xcconfig"; sourceTree = "<group>"; };
+		57D8C52AB67A12FE6E2102F3 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7EB9410499542E8C5724F5 /* Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.debug.xcconfig"; path = "Target Support Files/Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests/Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-fishingTechniqueQuizOrigen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fishingTechniqueQuizOrigen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604D657D2C8840F4008AA954 /* fishingTechniqueQuizOrigen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = fishingTechniqueQuizOrigen.entitlements; path = fishingTechniqueQuizOrigen/fishingTechniqueQuizOrigen.entitlements; sourceTree = "<group>"; };
+		604D65822C88417F008AA954 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		604D65842C88417F008AA954 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		604D65862C88417F008AA954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604D658E2C88421D008AA954 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		6197E3D619C2950729DB0505 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1254C4053D96E1EFDBD389 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		77B4CC05C51A4F4DAE7D879F /* InknutAntiqua-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-Light.ttf"; path = "../assets/fonts/InknutAntiqua-Light.ttf"; sourceTree = "<group>"; };
 		7B304CAB63694DABBFF1199E /* InknutAntiqua-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "InknutAntiqua-ExtraBold.ttf"; path = "../assets/fonts/InknutAntiqua-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = fishingTechniqueQuizOrigen/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +112,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		604D657F2C88417F008AA954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FB30304378744FCD0EC0B4 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,6 +143,7 @@
 		13B07FAE1A68108700A75B9A /* fishingTechniqueQuizOrigen */ = {
 			isa = PBXGroup;
 			children = (
+				604D657D2C8840F4008AA954 /* fishingTechniqueQuizOrigen.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -121,8 +162,19 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-fishingTechniqueQuizOrigen.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.a */,
+				57D8C52AB67A12FE6E2102F3 /* libPods-OneSignalNotificationServiceExtension.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		604D65832C88417F008AA954 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				604D658E2C88421D008AA954 /* OneSignalNotificationServiceExtension.entitlements */,
+				604D65842C88417F008AA954 /* NotificationService.swift */,
+				604D65862C88417F008AA954 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		65398CF317714EDE9CE157D4 /* Resources */ = {
@@ -152,6 +204,7 @@
 				13B07FAE1A68108700A75B9A /* fishingTechniqueQuizOrigen */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* fishingTechniqueQuizOrigenTests */,
+				604D65832C88417F008AA954 /* OneSignalNotificationServiceExtension */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -167,6 +220,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* fishingTechniqueQuizOrigen.app */,
 				00E356EE1AD99517003FC87E /* fishingTechniqueQuizOrigenTests.xctest */,
+				604D65822C88417F008AA954 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,6 +232,8 @@
 				5709B34CF0A7D63546082F79 /* Pods-fishingTechniqueQuizOrigen.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-fishingTechniqueQuizOrigen-fishingTechniqueQuizOrigenTests.release.xcconfig */,
+				6197E3D619C2950729DB0505 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				6D1254C4053D96E1EFDBD389 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -217,15 +273,35 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				604D658D2C88417F008AA954 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				604D65882C88417F008AA954 /* PBXTargetDependency */,
 			);
 			name = fishingTechniqueQuizOrigen;
 			productName = fishingTechniqueQuizOrigen;
 			productReference = 13B07F961A680F5B00A75B9A /* fishingTechniqueQuizOrigen.app */;
 			productType = "com.apple.product-type.application";
+		};
+		604D65812C88417F008AA954 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604D658A2C88417F008AA954 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				9176F4D58936E961C46F802F /* [CP] Check Pods Manifest.lock */,
+				604D657E2C88417F008AA954 /* Sources */,
+				604D657F2C88417F008AA954 /* Frameworks */,
+				604D65802C88417F008AA954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 604D65822C88417F008AA954 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -233,6 +309,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -241,6 +318,9 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					604D65812C88417F008AA954 = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
@@ -259,6 +339,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* fishingTechniqueQuizOrigen */,
 				00E356ED1AD99517003FC87E /* fishingTechniqueQuizOrigenTests */,
+				604D65812C88417F008AA954 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -285,6 +366,13 @@
 				7F35FD2C7DC04D1993714921 /* InknutAntiqua-Medium.ttf in Resources */,
 				510EC18B29464894908FE154 /* InknutAntiqua-Regular.ttf in Resources */,
 				3B51A6038CBD47EC81BBBEC6 /* InknutAntiqua-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604D65802C88417F008AA954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +410,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fishingTechniqueQuizOrigen/Pods-fishingTechniqueQuizOrigen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9176F4D58936E961C46F802F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -439,6 +549,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		604D657E2C88417F008AA954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604D65852C88417F008AA954 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -446,6 +564,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* fishingTechniqueQuizOrigen */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		604D65882C88417F008AA954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604D65812C88417F008AA954 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 604D65872C88417F008AA954 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,9 +628,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-fishingTechniqueQuizOrigen.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CODE_SIGN_ENTITLEMENTS = fishingTechniqueQuizOrigen/fishingTechniqueQuizOrigen.entitlements;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = WDCH786T5K;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = fishingTechniqueQuizOrigen/Info.plist;
@@ -518,7 +643,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -536,9 +661,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-fishingTechniqueQuizOrigen.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CODE_SIGN_ENTITLEMENTS = fishingTechniqueQuizOrigen/fishingTechniqueQuizOrigen.entitlements;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = WDCH786T5K;
 				INFOPLIST_FILE = fishingTechniqueQuizOrigen/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fishing Technique Quiz";
@@ -548,7 +675,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -558,6 +685,91 @@
 				PRODUCT_NAME = fishingTechniqueQuizOrigen;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		604D658B2C88417F008AA954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6197E3D619C2950729DB0505 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WDCH786T5K;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FishingTechniqueQuiz.fishingTechniqueQuiz.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		604D658C2C88417F008AA954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1254C4053D96E1EFDBD389 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WDCH786T5K;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FishingTechniqueQuiz.fishingTechniqueQuiz.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -732,6 +944,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604D658A2C88417F008AA954 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604D658B2C88417F008AA954 /* Debug */,
+				604D658C2C88417F008AA954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

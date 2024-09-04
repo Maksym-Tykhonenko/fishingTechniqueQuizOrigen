@@ -9,7 +9,6 @@ import {
   Image,
   Alert,
 } from 'react-native';
-
 import {Dimensions} from 'react-native';
 import BtnBack from '../components/BtnBack';
 import BtnAbsolute from '../components/BtnAbsolute';
